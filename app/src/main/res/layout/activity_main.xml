@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lucas.cvlucasvilain.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Lucas Vilain - Développeur" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/lucasvilain"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FF000000"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="Email : lucasmtvilain@gmail.com" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="Phone : 06 79 49 18 31" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="Adresse : 05 avenue Du Parc Courbevoie 92400" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/idCompetence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Competances" />
+
+        <Button
+            android:id="@+id/idFormation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="formations" />
+
+        <Button
+            android:id="@+id/idExperiences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Experiences" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
